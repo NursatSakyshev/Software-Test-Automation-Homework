@@ -1,0 +1,24 @@
+1. Open the browser and navigate to https://www.demoblaze.com
+2. Click on the "Log in" button.
+3. Enter a valid username and password.
+4. Click the "Log in" button to sign in.
+5. Wait until "Welcome" appears on the page.
+6. Click on any product from the product list, for example, "Samsung galaxy s6".
+7. Wait for the product detail page to load.
+8. Click on the "Add to cart" button.
+9. Handle the alert by clicking "OK" to confirm the addition.
+10. Click on the "Cart" button in the navigation bar.
+11. Wait for the cart page to load.
+12. Verify that the selected product appears in the cart.
+13. Click on the "Place Order" button.
+14. Fill in the purchase form with the following data:
+    - Name: name
+    - Country: country
+    - City: city
+    - Credit card: credit_card
+    - Month: month
+    - Year: year
+15. Click the "Purchase" button.
+16. Wait until the confirmation message "Thank you for your purchase!" appears.
+17. Click the "OK" button to close the confirmation.
+18. Close the browser.

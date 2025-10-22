@@ -1,0 +1,13 @@
+- Browser is installed and WebDriver is configured.
+- The Demo Blaze website (https://www.demoblaze.com) is accessible.
+- The user has a valid account (already registered).
+
+1. Open the browser and navigate to https://www.demoblaze.com
+2. Click on the "Log in" button in the top navigation bar.
+3. Wait until the login modal appears.
+4. Enter the registered username in the "Username" input field.
+5. Enter the correct password in the "Password" input field.
+6. Click the "Log in" button.
+7. Wait until the home page updates.
+8. Verify that the text "Welcome" is displayed on the page.
+9. Close the browser.

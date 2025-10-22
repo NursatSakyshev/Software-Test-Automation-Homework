@@ -1,0 +1,11 @@
+- Browser is installed and WebDriver is configured.
+- The Demo Blaze website (https://www.demoblaze.com) is accessible.
+
+1. Open the browser and navigate to https://www.demoblaze.com
+2. Click on the "Sign up" button on the top navigation bar.
+3. Wait until the sign-up modal appears.
+4. Enter a new username in the "Username" input field.
+5. Enter a valid password in the "Password" input field.
+6. Click the "Sign up" button inside the modal.
+7. Handle the alert confirming that the sign-up was successful.
+8. Close the browser.

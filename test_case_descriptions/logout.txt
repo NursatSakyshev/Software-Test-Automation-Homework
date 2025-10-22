@@ -1,0 +1,6 @@
+1. Open the browser and navigate to https://www.demoblaze.com
+2. Ensure that the user is logged in (verify that "Welcome" is displayed).
+3. Click on the "Log out" button in the top navigation bar.
+4. Wait until the page updates.
+5. Verify that the "Log in" and "Sign up" buttons reappear on the navigation bar.
+6. Close the browser.
