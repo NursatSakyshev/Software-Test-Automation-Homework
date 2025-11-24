@@ -8,6 +8,24 @@ def run_test(options, name):
         command_executor=f"https://{USERNAME}:{ACCESS_KEY}@hub.browserstack.com/wd/hub",
         options=options
     )
-    driver.get("https://youtube.com")
-    print(f"{name} - Test 2: PASSED")
-    driver.quit()
+
+    try:
+        driver.get("https://youtube.com")
+
+        driver.execute_script(
+            'browserstack_executor: {"action": "setSessionStatus", '
+            '"arguments": {"status":"passed", "reason":"YouTube opened successfully"}}'
+        )
+
+        print(f"{name} - Test 2: PASSED")
+
+    except Exception as e:
+        driver.execute_script(
+            f'browserstack_executor: {{"action": "setSessionStatus", '
+            f'"arguments": {{"status":"failed", "reason":"{str(e)}"}}}}'
+        )
+
+        print(f"{name} - Test 2: FAILED")
+
+    finally:
+        driver.quit()
