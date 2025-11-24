@@ -1,0 +1,31 @@
+Test Cases for BrowserStack Automation
+
+1. Chrome - Test 1
+   Description: Open Google.com and check page title
+   Expected Result: Page title should be "Google"
+   Run Result: PASSED (see BrowserStack Dashboard)
+
+2. Chrome - Test 2
+   Description: Open YouTube.com and check page title
+   Expected Result: Page title should contain "YouTube"
+   Run Result: PASSED (see BrowserStack Dashboard)
+
+3. Firefox - Test 1
+   Description: Open Google.com and check page title
+   Expected Result: Page title should be "Google"
+   Run Result: PASSED
+
+4. Firefox - Test 2
+   Description: Open YouTube.com and check page title
+   Expected Result: Page title should contain "YouTube"
+   Run Result: PASSED
+
+5. Safari - Test 1
+   Description: Open Google.com and check page title
+   Expected Result: Page title should be "Google"
+   Run Result: PASSED
+
+6. Safari - Test 2
+   Description: Open YouTube.com and check page title
+   Expected Result: Page title should contain "YouTube"
+   Run Result: PASSED
